@@ -11,9 +11,13 @@ header {
   padding-bottom: 20px;
 }
 
+header ul {
+  margin: 0 auto;
+}
+
 header ul li {
   list-style: none;
-  color: white
+  color: white;
 }
 
 header a {
@@ -36,16 +40,10 @@ main {
 
 main img {
   border: 3px solid rgb(59, 6, 6);
+  border-radius: 10px;
 }
 
-main .contaier .info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.info-img img {
+.info-card img {
   border: 3px solid rgb(59, 6, 6);
   border-radius: 10px;
 }
@@ -56,6 +54,7 @@ main .contaier .info {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 30px;
+  line-height: 60px;
 }
 
 .sing-box {
