@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,9 @@
   <link rel="stylesheet" href="style.css">
   <title>Landing Page</title>
 </head>
+
 <body>
-    <!-- LOGO LEFT | 3 LINK RIGHT -->
+  <!-- LOGO LEFT | 3 LINK RIGHT -->
   <header>
     <div class="container">
       <div class="row justify-content-between">
@@ -24,17 +26,17 @@
             <li><a href="#">link three</a></li>
           </ul>
         </div>
-    </div>
+      </div>
   </header>
 
-    <!-- TEXT LEFT + BUTTON | JUMBOTRON IMG -->
+  <!-- TEXT LEFT + BUTTON | JUMBOTRON IMG -->
   <main>
     <div class="container">
       <div class="row align-items-center">
         <div class="col">
           <h2 class="fw-bolder">This website is awesome</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsam, ut debitis libero laborum hic facilis distinctio placeat esse doloremque dolor vitae quidem, deleniti nihil odio sapiente cumque harum quae!</p>
-            <button type="button" class="btn btn-primary">Click me!</button>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsam, ut debitis libero laborum hic facilis distinctio placeat esse doloremque dolor vitae quidem, deleniti nihil odio sapiente cumque harum quae!</p>
+          <button type="button" class="w-30 btn btn-dark">Sing up</button>
         </div>
         <div class="col-4 d-flex flex-row-reverse">
           <img src="images/banner.png" alt="banner">
@@ -42,52 +44,75 @@
       </div>
     </div>
   </main>
-  
-    <!-- TITLE RANDOM INFO CENTER | 4 BOX IMG WITH BOTTOM TEXT -->
+
+  <!-- TITLE RANDOM INFO CENTER | 4 BOX IMG WITH BOTTOM TEXT -->
   <section>
     <div class="container info flex-column">
-      <h3 class="fw-bolder text-center">Some random info</h3>
-        <div class="row">
-          <div class="info-card col-xs-12 col-md-3 text-center">
-            <img src="images/icon-info-1.png" alt="">
-            <p>text</p>
+      <h3 class="fw-bolder text-center mb-5">Some random info</h3>
+      <div class="d-flex justify-content-evenly">
+
+        <div class="zoom card text-white bg-dark mb-3 border border-5 border-dark" style="width: 10rem;">
+          <img src="images/icon-info-1.png">
+          <div class="card-body">
+            <p class="card-text text-center">This is some subtext under an illustration or image</p>
           </div>
-          <div class="info-card col-xs-12 col-md-3 text-center">
-            <img src="images/icon-info-2.png" alt="">
-            <p>text</p>
+        </div>
+        <div class="zoom card text-white bg-dark mb-3 border border-5 border-dark" style="width: 10rem;">
+          <img src="images/icon-info-2.png">
+          <div class="card-body text-center">
+            <p class="card-text">This is some subtext under an illustration or image</p>
           </div>
-          <div class="info-card col-xs-12 col-md-3 text-center">
-            <img src="images/icon-info-3.png" alt="">
-            <p>text</p>
+        </div>
+        <div class="zoom card text-white bg-dark mb-3 border border-5 border-dark" style="width: 10rem;">
+          <img src="images/icon-info-3.png">
+          <div class="card-body text-center">
+            <p class="card-text">This is some subtext under an illustration or image</p>
           </div>
-          <div class="info-card col-xs-12 col-md-3 text-center">
-            <img src="images/icon-info-4.png" alt="">
-            <p>text</p>
+        </div>
+        <div class="zoom card text-white bg-dark mb-3 border border-5 border-dark" style="width: 10rem;">
+          <img src="images/icon-info-4.png">
+          <div class="card-body text-center">
+            <p class="card-text">This is some subtext under an illustration or image</p>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
   <!-- QUOTE TEXT CENTER ITALIC -->
   <section class="quote">
-    <div class="quote container">
-      <i>"Oh no"</i>
-      <div>
-        <b class="fs-4">- Emme Gray</b>
+    <div class="quote container py-5 px-5">
+      <i>This is an inspiring quote, or a testimonial from a customore. Maybe it's just filling up space, or maybe people will actualy read it. Who knows? All I know is that it looks nice.</i>
+      <div class="d-flex flex-row-reverse">
+        <b class="fs-4 ">- A cool person</b>
       </div>
-    </div>      
+    </div>
   </section>
 
   <!-- SING UP BOX -->
   <div class="sing-box container">
-    Sign up here | button
+    <div class="row align-items-center">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h3>Call to action! It's time!</h3>
+        <p>Sing up for our product by clicking that button right over there!</p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5 d-flex flex-row-reverse">
+        <button class="w-50 btn btn-dark" type="submit">Sign up</button>
+      </div>
+    </div>
   </div>
 
   <!-- FOOTER COPYRIGHT -->
-  <footer>
-    Copyright © The Odin Project 2022 by Emme Gray
+  <footer class="footer mt-auto">
+    <div class="container">
+      <span>Copyright © The Odin Project 2022 by </span>
+      <a href="https://github.com/emmegray" class="link-light">
+        <i class="fa-brands fa-github"></i> Emme Gray</a>
+
+    </div>
   </footer>
-  
+
 </body>
+
 </html>
